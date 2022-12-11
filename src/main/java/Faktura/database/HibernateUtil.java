@@ -1,4 +1,4 @@
-package Faktura;
+package Faktura.database;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.Metadata;

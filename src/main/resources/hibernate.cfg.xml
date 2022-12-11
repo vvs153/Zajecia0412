@@ -9,9 +9,9 @@
         <property name="connection.username">root</property>
         <property name="connection.password">root</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
-        <mapping class = "Faktura.Model.Payment"/>
-        <mapping class = "Faktura.Model.Company"/>
-        <mapping class = "Faktura.Model.Contractor"/>
-        <mapping class = "Faktura.Model.Invoice"/>
+        <mapping class = "Faktura.model.Payment"/>
+        <mapping class = "Faktura.model.Company"/>
+        <mapping class = "Faktura.model.Contractor"/>
+        <mapping class = "Faktura.model.Invoice"/>
     </session-factory>
 </hibernate-configuration>
